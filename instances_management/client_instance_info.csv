@@ -1,0 +1,2 @@
+InstanceId,InstanceType,InstanceName,PublicIpAddress
+i-08ab5c5bb662fea99,t2.2xlarge,client_node,

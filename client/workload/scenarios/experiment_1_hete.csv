@@ -1,0 +1,6 @@
+task_type,start_time,end_time,distribution,no_of_tasks
+image_classification,0,1,exponential,250
+object_detection,0,1,exponential,250
+question_answering,0,1,exponential,250
+speech_recognition,0,1,exponential,250
+

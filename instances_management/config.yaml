@@ -1,0 +1,49 @@
+# Description:
+#   This file contains the configuration for the instances_management module.
+#   The configuration is loaded by the launch_instances module and used
+#   to create the instances.
+# The configuration is a dictionary with the following keys:#
+#   - 'instances': a list of dictionaries, each dictionary contains the
+#                  configuration for an instance.
+#     - 'instance_type': the type of the instance to create.
+#     - 'count': the number of instances to create.
+
+allowed_instance_types:
+  - type: t2.large
+    price: 0.0928
+  - type: t2.xlarge
+    price: 0.1856
+  - type: t2.2xlarge
+    price: 0.3712
+  - type: inf1.xlarge
+    price: 0.228
+  - type: inf2.xlarge
+    price: 0.7582
+  - type: g3s.xlarge
+    price: 0.75
+  - type: g4dn.xlarge
+    price: 0.526
+  - type: p2.xlarge
+    price: 0.9
+  - type: c5.xlarge
+    price: 0.17
+  - type: c5.2xlarge
+    price: 0.34
+
+
+instances:
+  # - type: t2_large
+  #   count: 16
+  # - type: t2_xlarge
+  #   count: 16
+  # - type: t2_2xlarge
+  #   count: 8
+  # - type: g3s_xlarge
+  #   count: 4
+  # - type: g4dn_xlarge
+  #   count: 4
+  # - type: c5.xlarge
+  #   count: 16
+  - type: c5.2xlarge
+    count: 5
+
