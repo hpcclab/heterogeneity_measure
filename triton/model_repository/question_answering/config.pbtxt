@@ -1,0 +1,35 @@
+name: "question_answering"
+backend: "onnxruntime"
+max_batch_size : 0
+input [
+  {
+    name: "input_ids"
+    data_type: TYPE_INT64
+    dims: [1,35]
+  }
+]
+
+input [
+  {
+    name: "attention_mask"
+    data_type: TYPE_INT64
+    dims: [1,35]
+  }
+]
+
+output [
+  {
+    name: "start_logits"
+    data_type: TYPE_FP32
+    dims: [ -1, -1]
+  }
+]
+output [
+  {
+    name: "end_logits"
+    data_type: TYPE_FP32
+    dims: [ -1,-1]
+  }
+]
+
+

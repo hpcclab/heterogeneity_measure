@@ -1,0 +1,20 @@
+name: "speech_recognition"
+backend: "onnxruntime"
+max_batch_size : 0
+input [
+  {
+    name: "input"
+    data_type: TYPE_FP32
+    dims: [1,74400]
+  }
+]
+
+output [
+  {
+    name: "output"
+    data_type: TYPE_FP32
+    dims: [ 1, 232,32 ]
+  }
+]
+
+
