@@ -1,0 +1,5 @@
+task_type,g4dn.xlarge-1
+image_classification,8.3232
+object_detection,9.8744
+question_answering,3.2695999999999996
+speech_recognition,19.7752

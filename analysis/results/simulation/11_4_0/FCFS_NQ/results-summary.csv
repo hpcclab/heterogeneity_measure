@@ -1,0 +1,2 @@
+workload_id,total_no_of_tasks,mapped,cancelled,URG_missed,BE_missed,Completion%,xCompletion%,totalCompletion%,wasted_energy%,consumed_energy%,energy_per_completion%
+./workloads/experiment_1_hete/workload-0.csv,1000,1000,0,0,0,100.0,0.0,100.0,0.0,0.0,0.0
